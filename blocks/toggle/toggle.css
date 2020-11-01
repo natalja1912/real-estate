@@ -1,0 +1,9 @@
+@import url(./__button-real/toggle__button-real.css);
+@import url(./__button-fake/toggle__button-fake.css);
+@import url(./__text/toggle__text.css);
+
+.toggle{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}

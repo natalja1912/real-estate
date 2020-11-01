@@ -1,0 +1,9 @@
+.checkbox__text{
+    font-size: 16px;
+    line-height: 1.18;
+    color: #3C3C3C;
+}
+
+.checkbox__button-real:checked ~ .checkbox__text{
+    font-weight: 500;
+}

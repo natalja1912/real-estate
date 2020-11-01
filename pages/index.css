@@ -9,3 +9,6 @@
 @import url(../blocks/location/location.css);
 @import url(../blocks/radio-group/radio-group.css);
 @import url(../blocks/radio/radio.css);
+@import url(../blocks/checkbox/checkbox.css);
+@import url(../blocks/checkbox-group/checkbox-group.css);
+@import url(../blocks/toggle/toggle.css);

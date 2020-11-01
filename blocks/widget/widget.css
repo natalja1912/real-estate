@@ -1,4 +1,6 @@
 @import url(./__title/widget__title.css);
+@import url(./__hidden/widget__hidden.css);
+@import url(./__show-hidden/widget__show-hidden.css);
 
 .widget{
     margin-bottom: 30px;
