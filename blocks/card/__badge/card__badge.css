@@ -1,0 +1,13 @@
+.card__badge{
+    margin-right: 10px;
+    height: 22px;
+    padding: 0 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.card__badge:nth-child(2n){
+    margin-right: 0;
+}

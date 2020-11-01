@@ -1,0 +1,17 @@
+@import url(./__link/card__link.css);
+@import url(./__badges/card__badges.css);
+@import url(./__badge/card__badge.css);
+@import url(./__badge/_type/card__badge_type_class.css);
+@import url(./__badge/_type/card__badge_type_credit.css);
+@import url(./__content/card__content.css);
+@import url(./__title/card__title.css);
+@import url(./__term/card__term.css);
+@import url(./__metro/card__metro.css);
+@import url(./__address/card__address.css);
+
+.card{
+    width: 270px;
+    background-color: #ffffff;
+    position: relative;
+    margin-bottom: 30px;
+}

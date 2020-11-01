@@ -1,0 +1,20 @@
+.card__metro{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.14;
+    color: #000000;
+}
+
+.card__metro::before{
+    content: "";
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: baseline;
+    width: 16px;
+    height: 11px;
+    background-image: url('../../../images/icons/metro.svg');
+    background-repeat: no-repeat;
+}

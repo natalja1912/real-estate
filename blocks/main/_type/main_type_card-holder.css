@@ -1,0 +1,5 @@
+.main_type_card-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

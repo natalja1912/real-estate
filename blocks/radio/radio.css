@@ -1,0 +1,13 @@
+@import url(./__button-real/radio__button-real.css);
+@import url(./__button-fake/radio__button-fake.css);
+@import url(./__text/radio__text.css);
+
+.radio{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.radio:last-of-type{
+    margin-bottom: 0;
+}

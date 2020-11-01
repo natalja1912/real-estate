@@ -1,0 +1,9 @@
+@import url(./__title/widget__title.css);
+
+.widget{
+    margin-bottom: 30px;
+}
+
+.widget:last-of-type{
+    margin-bottom: 0;
+}

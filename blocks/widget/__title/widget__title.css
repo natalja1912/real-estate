@@ -1,0 +1,22 @@
+.widget__title{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    position: relative;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.16;
+    color: #000000;
+}
+
+.widget__title::after{
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url('../../../images/icons/chevron-up.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}

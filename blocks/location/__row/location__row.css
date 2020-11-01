@@ -1,0 +1,14 @@
+.location__row{
+    display: flex;
+    overflow: hidden;
+    border: 1px solid #D6D6D6;
+}
+
+.location__row:first-child{
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+}
+
+.location__row:last-child{
+    border-radius: 0 0 4px 4px;
+}

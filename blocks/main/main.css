@@ -1,0 +1,7 @@
+@import url(./_type/main_type_card-holder.css);
+@import url(./__button-more/main__button-more.css);
+@import url(./__button-image/main__button-image.css);
+
+.main{
+    width: 870px;
+}

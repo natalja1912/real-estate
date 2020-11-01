@@ -1,0 +1,9 @@
+.radio__text{
+    font-size: 16px;
+    line-height: 1.18;
+    color: #3C3C3C;
+}
+
+.radio__button-real:checked ~ .radio__text{
+    font-weight: 500;
+}

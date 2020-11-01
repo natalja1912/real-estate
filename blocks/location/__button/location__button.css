@@ -1,0 +1,30 @@
+
+.location__button{
+    flex-grow: 1;
+    padding: 0;
+    padding: 0 15px 0 15px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #3C3C3C;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in;
+}
+
+.location__button_active{
+    background-color: #FFCF26;
+}
+
+.location__button:hover{
+    background-color: #eedb96;
+}
+
+.location__button_active:hover{
+    background-color: #f7c40d;
+}
