@@ -1,3 +1,29 @@
+@import url(./__form-button/sidebar__form-button.css);
+@import url(./__form-button/_type/_submit/sidebar__form-button_type_submit.css);
+@import url(./__form-btn-image/sidebar__form-btn-image.css);
+
 .sidebar{
     width: 270px;
+    margin-left: 30px;
+    min-width: 270px;
+}
+
+@media screen and (max-width: 899px) {
+    .sidebar{
+        margin-left: 0;
+        padding: 10px 15px 0 15px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        overflow-y: scroll;
+        background-color: white;
+        box-shadow:  0 0 20px 4px #5f5c5c;
+        transform: translateX(-120%);
+        transition: all 0.6s ease-in;
+    }
+
+    .sidebar_active{
+        transform: translateX(0%);
+    }
 }

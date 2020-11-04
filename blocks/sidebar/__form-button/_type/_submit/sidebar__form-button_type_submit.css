@@ -1,0 +1,10 @@
+.sidebar__form-button_type_submit{
+    margin-bottom: 10px;
+    background-color: #FFCF26;
+    color: #000000;
+    font-weight: 500;
+}
+
+.sidebar__form-button_type_submit:hover{
+    background-color: #f8d865;
+}

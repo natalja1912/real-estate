@@ -3,3 +3,9 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 599px) {
+    .main_type_card-holder{
+        justify-content: center;
+    }
+}
