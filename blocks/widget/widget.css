@@ -1,5 +1,9 @@
 @import url(./__title/widget__title.css);
+@import url(./__title/_active/widget__title_active.css);
 @import url(./__hidden/widget__hidden.css);
+@import url(./__hidden/_active/widget__hidden_active.css);
+@import url(./__body/widget__body.css);
+@import url(./__body/_active/widget__body_active.css);
 @import url(./__show-hidden/widget__show-hidden.css);
 
 .widget{

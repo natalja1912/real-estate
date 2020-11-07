@@ -1,0 +1,9 @@
+.main__button-more_active::before{
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-image: url('../../../../images/icons/plus-circle.svg');
+}

@@ -1,0 +1,7 @@
+.location__button_active{
+    background-color: #FFCF26;
+}
+
+.location__button_active:hover{
+    background-color: #f7c40d;
+}

@@ -1,0 +1,12 @@
+.widget__title_active::after{
+    content: "";
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url('../../../../images/icons/arrow-down.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+}

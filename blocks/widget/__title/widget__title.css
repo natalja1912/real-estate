@@ -7,16 +7,17 @@
     font-size: 18px;
     line-height: 1.16;
     color: #000000;
+    cursor: pointer;
 }
 
 .widget__title::after{
     content: "";
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
     position: absolute;
     top: 0;
     right: 0;
-    background-image: url('../../../images/icons/chevron-up.svg');
+    background-image: url('../../../images/icons/arrow-down.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
